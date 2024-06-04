@@ -13,19 +13,19 @@ export default function navbar() {
 
         <ul id="options">
           <li className="opt">
-            <Link to="/">Home</Link>
+            <Link to="/Portfolio-1/">Home</Link>
           </li>
           <li className="opt">
-            <Link to="/about">About</Link>
+            <Link to="/Portfolio-1/about">About</Link>
           </li>
           <li className="opt">
-            <Link to="/experience">Experience</Link>
+            <Link to="/Portfolio-1/experience">Experience</Link>
           </li>
           <li className="opt">
-            <Link to="/projects">Projects</Link>
+            <Link to="/Portfolio-1/projects">Projects</Link>
           </li>
           <li className="opt">
-            <Link to="/contact">Contact</Link>
+            <Link to="/Portfolio-1/contact">Contact</Link>
           </li>
           <li id="mode">
             <p id="button" onClick={switching}></p>
