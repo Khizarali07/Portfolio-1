@@ -1,0 +1,107 @@
+@media (min-width: 768px) {
+    #projects {
+        width: 100vw;
+        height: 60vh;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        overflow-y: auto;
+    }
+
+    .projs {
+        width: 22.3vw;
+        height: 56vh;
+        margin: 1vw;
+        border: 0.3vw solid red;
+        border-radius: 1.5vw;
+    }
+
+    .project {
+        width: 20vw;
+        height: 35vh;
+        padding: 1.2vw;
+        border-radius: 2.5vw;
+    }
+
+    .name {
+        text-align: center;
+        font-size: 1.66vw;
+        font-weight: 700;
+    }
+
+    .cent {
+        display: flex;
+        justify-content: center;
+    }
+
+    .probut {
+        width: 8vw;
+        border: 1px solid turquoise;
+        border-radius: 4vw;
+        margin: 1.2vw 2vw 0vw;
+        padding: 0.5vw;
+        text-align: center;
+        background-color: blue;
+    }
+
+    .probut:hover {
+        color: red;
+        background-color: yellowgreen;
+        cursor: pointer;
+    }
+}
+
+@media (max-width: 767px) {
+    #projects {
+        position: relative;
+        top: 27vh;
+        width: 100vw;
+        height: 33vh;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        overflow-y: auto;
+    }
+
+    .projs {
+        width: 28vw;
+        height: 32vh;
+        margin: 1vw;
+        border: 0.3vw solid red;
+        border-radius: 1.5vw;
+    }
+
+    .project {
+        width: 25vw;
+        height: 20vh;
+        padding: 1.2vw;
+        border-radius: 2.5vw;
+    }
+
+    .name {
+        text-align: center;
+        font-size: 2.5vw;
+        font-weight: 900;
+    }
+
+    .cent {
+        display: flex;
+        justify-content: center;
+    }
+
+    .probut {
+        width: 12vw;
+        border: 1px solid turquoise;
+        border-radius: 4vw;
+        margin: 1.2vw 2vw 0vw;
+        padding: 0.5vw;
+        text-align: center;
+        background-color: red;
+    }
+
+    .probut:hover {
+        color: red;
+        background-color: yellowgreen;
+        cursor: pointer;
+    }
+}

@@ -1,0 +1,164 @@
+@media (min-width: 768px) {
+    * {
+        padding: 0%;
+        margin: 0%;
+    }
+
+    #main2 {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    #img {
+        margin: 5vw;
+        width: 23vw;
+        height: 35vh;
+        position: relative;
+        top: 15vh;
+        right: 25vh;
+        border: 5px solid red;
+        border-radius: 50%;
+    }
+
+    #inner {
+        width: fit-content;
+        height: fit-content;
+        position: relative;
+        top: 15vh;
+        right: 35vh;
+    }
+
+    #one,
+    #two,
+    #three {
+        margin: 1vw;
+    }
+
+    #one {
+        font-size: 1vw;
+        text-align: center;
+    }
+
+    #two {
+        font-size: 2.5vw;
+        text-align: center;
+        font-weight: 800;
+    }
+
+    #three {
+        font-size: 2vw;
+        text-align: center;
+        font-weight: 500;
+    }
+
+    .buttons {
+        width: fit-content;
+        height: fit-content;
+        padding: 1vw;
+        color: black;
+        border: 1px solid turquoise;
+        border-radius: 4vw;
+        margin: 1vw 1vw;
+    }
+
+    .buttons:hover {
+        color: red;
+        background-color: black;
+        cursor: pointer;
+    }
+
+    #but {
+        width: fit-content;
+        height: fit-content;
+        padding: 1vw;
+
+        background-color: black !important;
+        color: red !important;
+        border: 1px solid turquoise;
+        border-radius: 4vw;
+        margin: 1vw 1vw;
+    }
+}
+
+@media (max-width: 767px) {
+    * {
+        padding: 0%;
+        margin: 0%;
+    }
+
+    #main2 {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    #img {
+        margin: 5vw;
+        width: 25vw;
+        height: 25vh;
+        position: relative;
+        top: 23vh;
+        right: 16vh;
+        border: 5px solid red;
+        border-radius: 50%;
+    }
+
+    #inner {
+        width: fit-content;
+        height: fit-content;
+        position: relative;
+        top: 23vh;
+    }
+
+    #one,
+    #two,
+    #three {
+        margin: 1vw;
+    }
+
+    #one {
+        font-size: 2.5vw;
+        text-align: center;
+    }
+
+    #two {
+        font-size: 4vw;
+        text-align: center;
+        font-weight: 800;
+    }
+
+    #three {
+        font-size: 4vw;
+        text-align: center;
+        font-weight: 500;
+    }
+
+    .buttons {
+        width: fit-content;
+        height: fit-content;
+        padding: 1vw;
+        color: black;
+        border: 1px solid turquoise;
+        border-radius: 4vw;
+        margin: 1vw 1vw;
+    }
+
+    .buttons:hover {
+        color: red;
+        background-color: black;
+        cursor: pointer;
+    }
+
+    #but {
+        width: fit-content;
+        height: fit-content;
+        padding: 1vw;
+
+        background-color: black !important;
+        color: red !important;
+        border: 1px solid turquoise;
+        border-radius: 4vw;
+        margin: 1vw 1vw;
+    }
+}

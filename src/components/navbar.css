@@ -1,0 +1,126 @@
+@media (min-width: 768px) {
+    * {
+        padding: 0%;
+        margin: 0%;
+    }
+
+    a {
+        text-decoration-line: none;
+        color: black;
+    }
+
+    #main1 {
+        width: 100vw;
+        height: 15vh;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    #name {
+        font-size: 2.5vw;
+        font-weight: 600;
+    }
+
+    #options1 {
+        display: none;
+    }
+
+    #options {
+        display: flex;
+        align-items: center;
+        list-style-type: none;
+    }
+
+    .opt {
+        font-size: 2vw;
+        font-weight: 600;
+        margin: 4vh;
+    }
+
+    #mode {
+        width: 3vw;
+        height: 2vh;
+        border: 3px solid brown;
+        border-radius: 10px;
+    }
+
+    #button {
+        width: 1.3vw;
+        height: 2vh;
+        background-color: blue;
+        border-radius: 50%;
+    }
+}
+
+@media (max-width: 767px) {
+    * {
+        padding: 0%;
+        margin: 0%;
+    }
+
+    a {
+        text-decoration-line: none;
+        color: black;
+    }
+
+    #main1 {
+        width: 100vw;
+        height: 12vh;
+    }
+
+    #name {
+        text-align: center;
+        font-size: 5vw;
+        font-weight: 700;
+    }
+
+    #options li.opt {
+        display: none;
+    }
+
+    #options {
+        display: flex;
+        justify-content: center;
+        list-style-type: none;
+    }
+
+    #options1 {
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        list-style-type: none;
+        z-index: 5;
+        background-color: turquoise;
+    }
+
+    #men {
+        font-size: 10vw;
+        padding: 2vw;
+    }
+
+    .opt1 {
+        font-size: 8vw;
+        font-weight: 600;
+        padding: 5vh;
+        margin: 2vw;
+    }
+
+    #options1 li.opt1 {
+        display: none;
+    }
+
+    #mode {
+        width: 7vw;
+        height: 2vh;
+        border: 3px solid brown;
+        border-radius: 10px;
+    }
+
+    #button {
+        width: 2vw;
+        height: 2vh;
+        background-color: blue;
+        border-radius: 50%;
+    }
+}
