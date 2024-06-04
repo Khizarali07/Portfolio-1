@@ -6,6 +6,10 @@ import project5 from "./projects images/project 5.png";
 import "./project.css";
 
 export default function projects() {
+  const navigate = useNavigate();
+  window.addEventListener("beforeunload", function (event) {
+    navigate("/Portfolio");
+  });
   function executeDelayedFunction() {
     setTimeout(trans5, 500);
   }

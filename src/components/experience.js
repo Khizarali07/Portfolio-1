@@ -6,6 +6,10 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 library.add(fas);
 
 export default function experience() {
+  const navigate = useNavigate();
+  window.addEventListener("beforeunload", function (event) {
+    navigate("/Portfolio");
+  });
   function executeDelayedFunction() {
     setTimeout(trans3, 500);
   }
