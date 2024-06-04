@@ -2,15 +2,10 @@ import "./experience.css";
 import { library } from "@fortawesome/fontawesome-svg-core";
 import { fas } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { useNavigate } from "react-router-dom";
 
 library.add(fas);
 
 export default function experience() {
-  const navigate = useNavigate();
-  window.addEventListener("beforeunload", function (event) {
-    navigate("/Portfolio-1");
-  });
   function executeDelayedFunction() {
     setTimeout(trans3, 500);
   }

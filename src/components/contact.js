@@ -3,15 +3,10 @@ import { library } from "@fortawesome/fontawesome-svg-core";
 import { fas } from "@fortawesome/free-solid-svg-icons";
 import { fab } from "@fortawesome/free-brands-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { useNavigate } from "react-router-dom";
 
 library.add(fas, fab);
 
 export default function contact() {
-  const navigate = useNavigate();
-  window.addEventListener("beforeunload", function (event) {
-    navigate("/Portfolio-1");
-  });
   function executeDelayedFunction() {
     setTimeout(trans4, 500);
   }

@@ -5,7 +5,7 @@ import { fas } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 library.add(fas);
 
-export default function navbar() {
+function navbar() {
   return (
     <>
       <div id="main1">
@@ -35,19 +35,19 @@ export default function navbar() {
         <ul id="options1">
           <FontAwesomeIcon icon="fa-solid fa-bars" id="men" onClick={menu} />
           <li className="opt1">
-            <Link to="/">Home</Link>
+            <Link to="/Portfolio-1">Home</Link>
           </li>
           <li className="opt1">
-            <Link to="/about">About</Link>
+            <Link to="/Portfolio-1/about">About</Link>
           </li>
           <li className="opt1">
-            <Link to="/experience">Experience</Link>
+            <Link to="/Portfolio-1/experience">Experience</Link>
           </li>
           <li className="opt1">
-            <Link to="/projects">Projects</Link>
+            <Link to="/Portfolio-1/projects">Projects</Link>
           </li>
           <li className="opt1">
-            <Link to="/contact">Contact</Link>
+            <Link to="/Portfolio-1/contact">Contact</Link>
           </li>
         </ul>
       </div>
@@ -66,7 +66,7 @@ function switching() {
   let tag = document.getElementsByTagName("a");
 
   let a = 0;
-  console.log(window.innerWidth);
+
   if (mode === "dark") {
     x.style.transition = "transform 0.2s linear";
     x.style.transform =
@@ -111,3 +111,5 @@ function menu() {
     }
   }
 }
+
+export default navbar;

@@ -4,13 +4,8 @@ import project3 from "./projects images/project 3.png";
 import project4 from "./projects images/project 4.png";
 import project5 from "./projects images/project 5.png";
 import "./project.css";
-import { useNavigate } from "react-router-dom";
 
 export default function projects() {
-  const navigate = useNavigate();
-  window.addEventListener("beforeunload", function (event) {
-    navigate("/Portfolio-1");
-  });
   function executeDelayedFunction() {
     setTimeout(trans5, 500);
   }
