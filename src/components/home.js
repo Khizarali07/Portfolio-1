@@ -14,7 +14,7 @@ export default function home() {
           <button className="buttons" id="download" onClick={download}>
             Download CV
           </button>
-          <Link to="/Portfolio/contact" id="but">
+          <Link to="/Portfolio-1/contact" id="but">
             Contact Info
           </Link>
         </div>
