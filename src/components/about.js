@@ -2,10 +2,14 @@ import "./about.css";
 import { library } from "@fortawesome/fontawesome-svg-core";
 import { fas } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { Navigate } from "react-router-dom";
 
 library.add(fas);
 
 export default function about() {
+  window.addEventListener("beforeunload", function(event) {
+    Navigate('/Portfolio-1');
+  });
   function executeDelayedFunction() {
     setTimeout(trans2, 500);
   }
