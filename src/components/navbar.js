@@ -13,7 +13,7 @@ export default function navbar() {
 
         <ul id="options">
           <li className="opt">
-            <Link to="/Portfolio-1/">Home</Link>
+            <Link to="/Portfolio-1">Home</Link>
           </li>
           <li className="opt">
             <Link to="/Portfolio-1/about">About</Link>
